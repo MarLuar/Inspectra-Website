@@ -79,7 +79,7 @@ export default function LoginPage() {
           </div>
         </form>
         
-        <div className="text-center text-sm text-gray-500">
+        <div className="text-center text-sm text-gray-700">
           <p>
             Back to{' '}
             <Link href="/" className="font-medium text-blue-600 hover:text-blue-500">

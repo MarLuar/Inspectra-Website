@@ -71,23 +71,23 @@ export default function Layout({ children }: { children: ReactNode }) {
             {children}
           </main>
           
-          <footer className="bg-white">
+          <footer className="bg-white border-t">
             <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
               <div className="md:flex md:items-center md:justify-between">
                 <div className="flex justify-center md:justify-start">
-                  <p className="text-center text-sm text-gray-500">
+                  <p className="text-center text-sm text-gray-700">
                     © 2026 InSpectra. All rights reserved.
                   </p>
                 </div>
                 <div className="mt-4 flex justify-center md:mt-0">
                   <div className="flex space-x-6">
-                    <Link href="/terms" className="text-gray-400 hover:text-gray-500">
+                    <Link href="/terms" className="text-gray-600 hover:text-gray-900">
                       Terms
                     </Link>
-                    <Link href="/privacy" className="text-gray-400 hover:text-gray-500">
+                    <Link href="/privacy" className="text-gray-600 hover:text-gray-900">
                       Privacy
                     </Link>
-                    <Link href="/security" className="text-gray-400 hover:text-gray-500">
+                    <Link href="/security" className="text-gray-600 hover:text-gray-900">
                       Security
                     </Link>
                   </div>
