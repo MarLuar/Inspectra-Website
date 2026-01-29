@@ -29,16 +29,16 @@ export default function Home() {
           {/* Feature Highlights */}
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-2">Document Scanning</h3>
-              <p className="text-gray-600">Scan documents with automatic edge detection and perspective correction.</p>
+              <h3 className="text-xl font-semibold mb-2 text-blue-600">Document Scanning</h3>
+              <p className="text-blue-600">Scan documents with automatic edge detection and perspective correction.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-2">Image Enhancement</h3>
-              <p className="text-gray-600">Adjust brightness, contrast, and sharpness of your scanned images.</p>
+              <h3 className="text-xl font-semibold mb-2 text-blue-600">Image Enhancement</h3>
+              <p className="text-blue-600">Adjust brightness, contrast, and sharpness of your scanned images.</p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-2">Project Organization</h3>
-              <p className="text-gray-600">Organize documents into projects with automatic QR code generation.</p>
+              <h3 className="text-xl font-semibold mb-2 text-blue-600">Project Organization</h3>
+              <p className="text-blue-600">Organize documents into projects with automatic QR code generation.</p>
             </div>
           </div>
         </div>

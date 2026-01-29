@@ -13,7 +13,7 @@ export default function Documents() {
         <div className="flex justify-between items-center mb-6">
           <div>
             <h2 className="text-xl font-semibold">All Documents</h2>
-            <p className="text-gray-600">Manage your scanned documents and files</p>
+            <p className="text-blue-600">Manage your scanned documents and files</p>
           </div>
           <div className="flex space-x-3">
             <select className="border border-gray-300 rounded-md px-3 py-2">
@@ -32,19 +32,19 @@ export default function Documents() {
           <table className="min-w-full divide-y divide-gray-200">
             <thead className="bg-gray-50">
               <tr>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-blue-600 uppercase tracking-wider">
                   Document
                 </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-blue-600 uppercase tracking-wider">
                   Project
                 </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-blue-600 uppercase tracking-wider">
                   Type
                 </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-blue-600 uppercase tracking-wider">
                   Date
                 </th>
-                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">
+                <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-blue-600 uppercase tracking-wider">
                   Size
                 </th>
                 <th scope="col" className="relative px-6 py-3">

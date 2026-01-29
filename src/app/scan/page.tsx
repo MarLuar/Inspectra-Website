@@ -66,7 +66,7 @@ export default function Scan() {
             </div>
             
             <div className="mb-4">
-              <label className="block text-sm font-medium text-gray-700 mb-1">
+              <label className="block text-sm font-medium text-blue-600 mb-1">
                 Upload Document Image
               </label>
               <input 
@@ -86,7 +86,7 @@ export default function Scan() {
               <button className="flex-1 bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700">
                 Take Photo
               </button>
-              <button className="flex-1 bg-gray-200 text-gray-800 py-2 px-4 rounded-md hover:bg-gray-300">
+              <button className="flex-1 bg-blue-100 text-blue-800 py-2 px-4 rounded-md hover:bg-blue-200">
                 Gallery
               </button>
             </div>
@@ -99,7 +99,7 @@ export default function Scan() {
             <div className="space-y-6">
               <div>
                 <div className="flex justify-between mb-1">
-                  <label className="block text-sm font-medium text-gray-700">
+                  <label className="block text-sm font-medium text-blue-600">
                     Brightness: {enhancementSettings.brightness}%
                   </label>
                 </div>
@@ -115,7 +115,7 @@ export default function Scan() {
               
               <div>
                 <div className="flex justify-between mb-1">
-                  <label className="block text-sm font-medium text-gray-700">
+                  <label className="block text-sm font-medium text-blue-600">
                     Contrast: {enhancementSettings.contrast}%
                   </label>
                 </div>
@@ -131,7 +131,7 @@ export default function Scan() {
               
               <div>
                 <div className="flex justify-between mb-1">
-                  <label className="block text-sm font-medium text-gray-700">
+                  <label className="block text-sm font-medium text-blue-600">
                     Sharpness: {enhancementSettings.sharpness}%
                   </label>
                 </div>

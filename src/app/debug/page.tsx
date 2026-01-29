@@ -20,7 +20,7 @@ const DebugPage = () => {
         </div>
         
         <div className="mt-6 p-4 border-2 border-dashed border-purple-500 rounded">
-          <p className="text-lg text-gray-700">This is a bordered container with dashed border (border-2 border-dashed border-purple-500)</p>
+          <p className="text-lg text-blue-600">This is a bordered container with dashed border (border-2 border-dashed border-purple-500)</p>
         </div>
       </div>
     </div>
