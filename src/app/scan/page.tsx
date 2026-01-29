@@ -60,7 +60,7 @@ export default function Scan() {
                   <svg className="h-12 w-12 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                   </svg>
-                  <p className="mt-2 text-gray-600">Upload an image to scan</p>
+                  <p className="mt-2 text-blue-600">Upload an image to scan</p>
                 </div>
               )}
             </div>
@@ -73,7 +73,7 @@ export default function Scan() {
                 type="file" 
                 accept="image/*" 
                 onChange={handleImageUpload}
-                className="block w-full text-sm text-gray-600
+                className="block w-full text-sm text-blue-600
                   file:mr-4 file:py-2 file:px-4
                   file:rounded-md file:border-0
                   file:text-sm file:font-semibold

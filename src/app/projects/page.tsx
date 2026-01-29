@@ -27,7 +27,7 @@ export default function Projects() {
                   Active
                 </span>
               </div>
-              <p className="mt-2 text-sm text-gray-600">Construction project for residential building</p>
+              <p className="mt-2 text-sm text-blue-600">Construction project for residential building</p>
               
               <div className="mt-4 flex items-center text-sm text-gray-600">
                 <svg className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -72,7 +72,7 @@ export default function Projects() {
                   In Progress
                 </span>
               </div>
-              <p className="mt-2 text-sm text-gray-600">Renovation project for downtown office</p>
+              <p className="mt-2 text-sm text-blue-600">Renovation project for downtown office</p>
               
               <div className="mt-4 flex items-center text-sm text-gray-600">
                 <svg className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -117,7 +117,7 @@ export default function Projects() {
                   On Hold
                 </span>
               </div>
-              <p className="mt-2 text-sm text-gray-600">New retail space development</p>
+              <p className="mt-2 text-sm text-blue-600">New retail space development</p>
               
               <div className="mt-4 flex items-center text-sm text-gray-600">
                 <svg className="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">

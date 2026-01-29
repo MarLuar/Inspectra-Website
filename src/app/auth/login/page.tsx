@@ -9,9 +9,9 @@ export default function LoginPage() {
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
             Sign in to your account
           </h2>
-          <p className="mt-2 text-center text-sm text-gray-600">
+          <p className="mt-2 text-center text-sm text-blue-600">
             Or{' '}
-            <Link href="/auth/register" className="font-medium text-blue-600 hover:text-blue-500">
+            <Link href="/auth/register" className="font-medium text-blue-700 hover:text-blue-800">
               create a new account
             </Link>
           </p>
@@ -79,10 +79,10 @@ export default function LoginPage() {
           </div>
         </form>
         
-        <div className="text-center text-sm text-gray-700">
+        <div className="text-center text-sm text-blue-600">
           <p>
             Back to{' '}
-            <Link href="/" className="font-medium text-blue-600 hover:text-blue-500">
+            <Link href="/" className="font-medium text-blue-700 hover:text-blue-800">
               Home
             </Link>
           </p>

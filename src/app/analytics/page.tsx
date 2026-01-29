@@ -111,7 +111,7 @@ export default function Analytics() {
                   </div>
                   <div className="text-right">
                     <p className="text-sm font-medium">{project.documents} docs</p>
-                    <p className="text-xs text-gray-600">{project.activity}% activity</p>
+                    <p className="text-xs text-blue-600">{project.activity}% activity</p>
                   </div>
                 </div>
               ))}

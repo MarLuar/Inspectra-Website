@@ -40,14 +40,14 @@ export default function ForgotPasswordPage() {
           </div>
         </form>
         
-        <div className="text-center text-sm text-gray-700">
+        <div className="text-center text-sm text-blue-600">
           <p>
             Back to{' '}
-            <Link href="/auth/login" className="font-medium text-blue-600 hover:text-blue-500">
+            <Link href="/auth/login" className="font-medium text-blue-700 hover:text-blue-800">
               Sign in
             </Link>{' '}
             or{' '}
-            <Link href="/" className="font-medium text-blue-600 hover:text-blue-500">
+            <Link href="/" className="font-medium text-blue-700 hover:text-blue-800">
               Home
             </Link>
           </p>

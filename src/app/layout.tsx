@@ -19,37 +19,37 @@ export default function Layout({ children }: { children: ReactNode }) {
                   <nav className="ml-10 flex space-x-4">
                     <Link
                       href="/"
-                      className="text-gray-700 hover:bg-gray-50 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                      className="text-blue-600 hover:bg-gray-50 hover:text-blue-800 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                     >
                       Home
                     </Link>
                     <Link
                       href="/dashboard"
-                      className="text-gray-700 hover:bg-gray-50 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                      className="text-blue-600 hover:bg-gray-50 hover:text-blue-800 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                     >
                       Dashboard
                     </Link>
                     <Link
                       href="/projects"
-                      className="text-gray-700 hover:bg-gray-50 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                      className="text-blue-600 hover:bg-gray-50 hover:text-blue-800 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                     >
                       Projects
                     </Link>
                     <Link
                       href="/documents"
-                      className="text-gray-700 hover:bg-gray-50 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                      className="text-blue-600 hover:bg-gray-50 hover:text-blue-800 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                     >
                       Documents
                     </Link>
                     <Link
                       href="/scan"
-                      className="text-gray-700 hover:bg-gray-50 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                      className="text-blue-600 hover:bg-gray-50 hover:text-blue-800 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                     >
                       Scan
                     </Link>
                     <Link
                       href="/analytics"
-                      className="text-gray-700 hover:bg-gray-50 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+                      className="text-blue-600 hover:bg-gray-50 hover:text-blue-800 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                     >
                       Analytics
                     </Link>
@@ -75,19 +75,19 @@ export default function Layout({ children }: { children: ReactNode }) {
             <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
               <div className="md:flex md:items-center md:justify-between">
                 <div className="flex justify-center md:justify-start">
-                  <p className="text-center text-sm text-gray-700">
+                  <p className="text-center text-sm text-blue-600">
                     © 2026 InSpectra. All rights reserved.
                   </p>
                 </div>
                 <div className="mt-4 flex justify-center md:mt-0">
                   <div className="flex space-x-6">
-                    <Link href="/terms" className="text-gray-600 hover:text-gray-900">
+                    <Link href="/terms" className="text-blue-600 hover:text-blue-800">
                       Terms
                     </Link>
-                    <Link href="/privacy" className="text-gray-600 hover:text-gray-900">
+                    <Link href="/privacy" className="text-blue-600 hover:text-blue-800">
                       Privacy
                     </Link>
-                    <Link href="/security" className="text-gray-600 hover:text-gray-900">
+                    <Link href="/security" className="text-blue-600 hover:text-blue-800">
                       Security
                     </Link>
                   </div>

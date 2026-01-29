@@ -64,7 +64,7 @@ export default function Documents() {
                     </div>
                     <div className="ml-4">
                       <div className="text-sm font-medium text-gray-900">Blueprint_Floor_Plan.pdf</div>
-                      <div className="text-sm text-gray-600">Construction Site Alpha</div>
+                      <div className="text-sm text-blue-600">Construction Site Alpha</div>
                     </div>
                   </div>
                 </td>
@@ -76,10 +76,10 @@ export default function Documents() {
                     Blueprint
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600">
                   Jan 18, 2026
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600">
                   2.4 MB
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
@@ -108,7 +108,7 @@ export default function Documents() {
                     </div>
                     <div className="ml-4">
                       <div className="text-sm font-medium text-gray-900">Inspection_Report_01.pdf</div>
-                      <div className="text-sm text-gray-600">Office Building Beta</div>
+                      <div className="text-sm text-blue-600">Office Building Beta</div>
                     </div>
                   </div>
                 </td>
@@ -120,10 +120,10 @@ export default function Documents() {
                     Report
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600">
                   Jan 15, 2026
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600">
                   1.8 MB
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
@@ -152,7 +152,7 @@ export default function Documents() {
                     </div>
                     <div className="ml-4">
                       <div className="text-sm font-medium text-gray-900">Contract_Agreement.pdf</div>
-                      <div className="text-sm text-gray-600">Retail Space Gamma</div>
+                      <div className="text-sm text-blue-600">Retail Space Gamma</div>
                     </div>
                   </div>
                 </td>
@@ -164,10 +164,10 @@ export default function Documents() {
                     Contract
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600">
                   Jan 10, 2026
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600">
                   3.2 MB
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
@@ -196,7 +196,7 @@ export default function Documents() {
                     </div>
                     <div className="ml-4">
                       <div className="text-sm font-medium text-gray-900">Site_Photo_001.jpg</div>
-                      <div className="text-sm text-gray-600">Construction Site Alpha</div>
+                      <div className="text-sm text-blue-600">Construction Site Alpha</div>
                     </div>
                   </div>
                 </td>
@@ -208,10 +208,10 @@ export default function Documents() {
                     Photo
                   </span>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600">
                   Jan 8, 2026
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+                <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600">
                   4.1 MB
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">

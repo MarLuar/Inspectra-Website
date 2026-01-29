@@ -93,22 +93,22 @@ export default function ProjectDetail() {
             <div className="bg-white rounded-lg shadow overflow-hidden">
               <div className="px-6 py-4 border-b border-gray-200">
                 <h2 className="text-lg font-medium">Project Documents</h2>
-                <p className="text-sm text-gray-600">Manage documents associated with this project</p>
+                <p className="text-sm text-blue-600">Manage documents associated with this project</p>
               </div>
               
               <table className="min-w-full divide-y divide-gray-200">
                 <thead className="bg-gray-50">
                   <tr>
-                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">
+                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-blue-600 uppercase tracking-wider">
                       Document
                     </th>
-                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">
+                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-blue-600 uppercase tracking-wider">
                       Type
                     </th>
-                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">
+                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-blue-600 uppercase tracking-wider">
                       Date
                     </th>
-                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-600 uppercase tracking-wider">
+                    <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-blue-600 uppercase tracking-wider">
                       Size
                     </th>
                     <th scope="col" className="relative px-6 py-3">
@@ -148,10 +148,10 @@ export default function ProjectDetail() {
                           {doc.type}
                         </span>
                       </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600">
                         {doc.date}
                       </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600">
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-blue-600">
                         {doc.size}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
@@ -200,10 +200,10 @@ export default function ProjectDetail() {
                   <svg className="h-12 w-12 text-gray-500 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
                   </svg>
-                  <p className="text-sm text-gray-600 mt-2">QR Code Placeholder</p>
+                  <p className="text-sm text-blue-600 mt-2">QR Code Placeholder</p>
                 </div>
               </div>
-              <p className="text-sm text-gray-600 text-center">
+              <p className="text-sm text-blue-600 text-center">
                 Scan this QR code to access the project details from your mobile device.
               </p>
               <div className="mt-4 flex space-x-3">

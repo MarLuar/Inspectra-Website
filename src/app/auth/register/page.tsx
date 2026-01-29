@@ -8,9 +8,9 @@ export default function RegisterPage() {
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
             Create a new account
           </h2>
-          <p className="mt-2 text-center text-sm text-gray-600">
+          <p className="mt-2 text-center text-sm text-blue-600">
             Or{' '}
-            <Link href="/auth/login" className="font-medium text-blue-600 hover:text-blue-500">
+            <Link href="/auth/login" className="font-medium text-blue-700 hover:text-blue-800">
               sign in to your existing account
             </Link>
           </p>
@@ -99,10 +99,10 @@ export default function RegisterPage() {
           </div>
         </form>
         
-        <div className="text-center text-sm text-gray-700">
+        <div className="text-center text-sm text-blue-600">
           <p>
             Back to{' '}
-            <Link href="/" className="font-medium text-blue-600 hover:text-blue-500">
+            <Link href="/" className="font-medium text-blue-700 hover:text-blue-800">
               Home
             </Link>
           </p>
