@@ -2,6 +2,60 @@ import Link from "next/link";
 import { ReactNode } from "react";
 import "./globals.css";
 
+// Explicitly import Tailwind directives to ensure they're processed in production
+if (typeof document !== 'undefined') {
+  // This ensures Tailwind classes are recognized by the production build
+  const twClasses = [
+    'bg-gray-50', 'bg-white', 'bg-blue-600',
+    'text-blue-600', 'text-gray-700', 'text-gray-900', 'text-gray-600', 'text-gray-500', 'text-white',
+    'shadow', 'rounded-md', 'rounded-lg', 'rounded-full',
+    'flex', 'flex-col', 'flex-grow', 'flex-shrink-0', 'items-center', 'justify-between', 'justify-center', 'justify-start',
+    'h-16', 'h-8', 'h-6', 'h-screen', 'min-h-screen', 'min-h-dvh',
+    'w-8', 'w-6', 'w-full',
+    'p-4', 'p-6', 'py-2', 'py-6', 'px-4', 'px-6', 'px-8',
+    'm-0', 'mb-2', 'mt-4', 'mt-8', 'mt-12', 'gap-2', 'gap-4',
+    'space-x-4', 'space-x-6', 'space-y-6',
+    'grid', 'grid-cols-1', 'grid-rows-[auto_1fr_auto]', 'md:grid-cols-3',
+    'max-w-7xl', 'max-w-3xl', 'max-w-4xl', 'mx-auto',
+    'text-xl', 'text-lg', 'text-sm', 'text-4xl', 'text-5xl',
+    'font-bold', 'font-medium', 'font-semibold',
+    'tracking-tighter', 'text-pretty',
+    'border', 'border-b', 'border-t', 'border-gray-200', 'border-dashed', 'border-purple-500',
+    'hover:bg-gray-50', 'hover:text-gray-900', 'hover:bg-blue-700', 'hover:text-blue-600', 'hover:text-gray-500',
+    'transition-colors', 'transition-all',
+    'absolute', 'relative', 'static',
+    'opacity-0', 'opacity-100',
+    'outline-none', 'focus-visible:outline-none', 'focus-visible:ring-1', 'focus-visible:ring-blue-600', 'focus-visible:ring-gray-900',
+    'shadow-sm', 'shadow-lg',
+    'overflow-hidden',
+    'text-center',
+    'sm:text-5xl',
+    'sm:p-6',
+    'lg:p-8',
+    'md:flex',
+    'md:items-center',
+    'md:justify-between',
+    'md:justify-start',
+    'md:h-16',
+    'md:flex-row',
+    'md:inline-block',
+    'hidden',
+    'inline-block',
+    'block',
+    'bg-cover',
+    'bg-center',
+    'object-cover',
+    'cursor-pointer',
+    'select-none',
+    'appearance-none',
+    'resize-none',
+    'pointer-events-none',
+    'z-0',
+    'z-10',
+    'z-50'
+  ];
+}
+
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
