@@ -10,7 +10,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 0, 25, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
@@ -24,11 +24,48 @@ body {
       transparent
     )
     rgb(var(--background-end-rgb));
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 320px;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  /* Responsive utility classes */
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+    }
   }
 }
 
@@ -43,4 +80,21 @@ body {
 
 .text-blue-800 {
   color: #1e40af !important;
+}
+
+/* Improve touch targets for mobile */
+.btn-touch {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Better focus indicators for accessibility */
+.focus-outline {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus-outline:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
 }
