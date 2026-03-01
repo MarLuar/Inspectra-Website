@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import UserProfile from './UserProfile';
 
 const navLinks = [
   { name: 'Home', href: '/' },
@@ -51,7 +52,7 @@ export default function MobileMenu() {
                     <XMarkIcon className="h-6 w-6" />
                   </button>
                 </div>
-                
+
                 <nav className="mt-6">
                   <ul className="space-y-4">
                     {navLinks.map((link) => (
@@ -66,14 +67,9 @@ export default function MobileMenu() {
                       </li>
                     ))}
                   </ul>
-                  
+
                   <div className="mt-6 pt-4 border-t border-gray-200">
-                    <Link
-                      href="/auth/login"
-                      className="block w-full text-center bg-blue-600 text-white px-4 py-2 rounded-md text-base font-medium hover:bg-blue-700 transition-colors"
-                    >
-                      Sign In
-                    </Link>
+                    <UserProfile />
                   </div>
                 </nav>
               </div>
